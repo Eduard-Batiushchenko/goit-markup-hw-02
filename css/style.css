@@ -1,0 +1,215 @@
+/* primary-bg-white: #ffffff; */
+/* secondary-bg-grey: #F5F4FA; */
+/* third-bg-color: #2196F3; */
+/* heroic-bg: #2F303A; */
+/* primary-text-color: #212121; */
+/* secondary-text-color: #757575; */
+/* third-text-color: #2196F3; */
+/* heroic-text-color: #FFFFFF; */
+
+:root {
+  --primary-bg-white: #ffffff;
+  --secondary-bg-grey: #f5f4fa;
+  --heroic-bg: #2f303a;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --heroic-text-color: #ffffff;
+  --third-text-color: #2196f3;
+  --third-bg-color: #2196f3;
+}
+
+.page {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--primary-bg-white);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--third-text-color);
+}
+
+.logo.part {
+  color: var(--primary-text-color);
+}
+/* Navigation */
+
+.nav .nav-text {
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+.nav .nav-text:hover,
+.nav .nav-text:focus,
+.nav .nav-text:active {
+  color: var(--third-text-color);
+}
+.nav-text.current {
+  color: var(--third-text-color);
+}
+
+/* Contacts */
+
+.contacts .contacts-text {
+  font-weight: 500;
+  font-style: normal;
+  color: var(--secondary-text-color);
+}
+
+.contacts .contacts-text:hover,
+.contacts .contacts-text:focus,
+.contacts .contacts-text:active {
+  color: var(--third-text-color);
+}
+
+/* Heroic */
+
+.heroic {
+  background-color: var(--heroic-bg);
+}
+
+.heroic .heroic-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--heroic-text-color);
+}
+
+.button-main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--heroic-text-color);
+  background-color: var(--third-text-color);
+}
+
+/* Benefits */
+
+.section .section-hide {
+  visibility: hidden;
+}
+
+.section .benefits-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text-color);
+}
+
+.section .benefits-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--secondary-text-color);
+}
+
+/* About-us */
+.section .section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--primary-text-color);
+}
+
+/* Our-team */
+
+.team .team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--primary-text-color);
+}
+
+.team .team-member {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-text-color);
+}
+
+.team .team-prof {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--heroic-bg);
+}
+
+.footer .logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--third-text-color);
+}
+
+.footer .logo.part {
+  color: var(--primary-bg-white);
+}
+
+/* Contacts */
+
+.contacts .contacts-address {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--heroic-text-color);
+}
+
+/* Button portfolio */
+
+.button-portfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-grey);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio:active {
+  color: var(--primary-bg-white);
+  background-color: var(--third-bg-color);
+}
